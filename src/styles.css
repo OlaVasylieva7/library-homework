@@ -1,0 +1,50 @@
+/* task 1 */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  height: 100vh;
+
+  background-color: pink;
+}
+
+.game {
+  text-align: center;
+
+  border-radius: 10px;
+  padding: 50px 100px;
+
+  background-color: plum;
+  border: 1px solid blueviolet;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.key {
+  font-size: 60px;
+}
+
+button {
+  margin-top: 30px;
+  padding: 15px 30px;
+
+  border-radius: 10px;
+  border: 1px solid rgb(86, 140, 240);
+  background-color: rgb(184, 221, 234);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(209, 235, 243);
+}
+
+
+/* task 2 */
