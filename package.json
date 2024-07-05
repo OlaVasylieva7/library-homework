@@ -1,6 +1,7 @@
 {
   "name": "my-project",
   "source": "index.html",
+  "main": "src/index.js",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
   "start": "parcel index.html",
